@@ -11,7 +11,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
+    <Route path='portfolio/' element={<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='projects/' element={<Projects />}>
         <Route path=':projectid' element={<Projects />} />
